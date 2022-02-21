@@ -1,17 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import Slider from "./Collection/Slider";
+import Navbar from './Navbar/Navbar';
+import About from "./About/About";
+import App from "./App";
+import "./Navbar/navbar.css"
+import Rarity from "./Rarity/Rarity";
 
+import VerticalTimeline from "./VerticalTimeline";
+import "./Collection/styles.css";
+import { Layout, Avatar, Icon } from "antd";
+import "antd/dist/antd.css";
+
+const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+  <React.StrictMode>
+    <Navbar />
+    <h1>Collection</h1> 
+    <Slider />
+    <About />
+    <Rarity />
+    <h1>Roadmap</h1> 
+    <VerticalTimeline />
+   
+  </React.StrictMode>
+  ,
+  rootElement
+);
