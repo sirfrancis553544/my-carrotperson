@@ -4,7 +4,7 @@ import { VerticalTimeline, VerticalTimelineElement } from "./Timeline";
 import "./Timeline/VerticalTimeline.css";
 import "./Timeline/VerticalTimelineElement.css";
 
-import { MdFavorite, MdWbSunny, MdBrightness3, MdChatBubble, MdExtension } from "react-icons/md";
+import { MdFavorite, MdExtension } from "react-icons/md";
 
 function Timeline() {
   return (

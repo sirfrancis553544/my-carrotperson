@@ -3,7 +3,6 @@ import "../index.css";
 
 export default function About() {
   return (
-    
     <div className="main-container">
       <div className="about-wrapper">
         <div id="about" className="about-me">
@@ -28,6 +27,12 @@ export default function About() {
           <p>
             Help the carrots go back home and save their universe while stopping
             the mysterious carrot from destroying everything.
+          </p>
+          <p>
+            <a href="https://opensea.io/collection/carrotperson" target="_blank">
+              {/* <Button> Link Button </Button> */}
+              Shop on OpenSea
+            </a>
           </p>
         </div>
       </div>

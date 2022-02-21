@@ -14,6 +14,7 @@ strong {
   font-family: "Russo One", sans-serif;
   /* font-family: 'VT323', monospace; */
   font-weight: 500;
+  /* text-align: "center", */
 }
 th,
 td,
@@ -27,6 +28,12 @@ textarea {
   font-family: "Roboto Mono", monospace;
 }
 
+.greeting-wrapper {
+  display: grid;
+  text-align: center;
+  align-content: center;
+  min-height: 10em;
+}
 .main-container {
   width: 1100px;
   margin: 0 auto;
@@ -55,13 +62,6 @@ textarea {
   text-align: center;
 }
 
-.rarity {
-  width: 100%;
-  /* height: auto; */
-  padding: 10px;
-  display: inline;
-}
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -70,11 +70,16 @@ table {
   background-color: #f0ead6;
 }
 
-th, td {
+th,
+td {
   text-align: left;
   padding: 10px;
-} 
+}
 
+.thumbnail2 {
+  width: 100%;
+  transition: transform 0.1s;
+}
 
 @media screen and (max-width: 1100px) {
   .main-container {
@@ -83,6 +88,22 @@ th, td {
 }
 
 @media screen and (max-width: 550px) {
+  .social-link {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  h1,
+  h2 {
+    font-size: 30px;
+  }
+  .greeting-wrapper,
+  .social-links {
+    font-size: 12px;
+    padding: 20px 0 20px;
+  }
+
   .social-link {
     padding-top: 50px;
   }
