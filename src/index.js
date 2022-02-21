@@ -5,14 +5,13 @@ import Navbar from "./Navbar/Navbar";
 import About from "./About/About";
 import Team from "./Team/Team";
 import Verification from "./Verification/Verification";
-import App from "./App";
+import Footer from "./Footer/Footer";
 import "./Navbar/navbar.css";
 import Rarity from "./Rarity/Rarity";
 import "./index.css";
 
 import VerticalTimeline from "./VerticalTimeline";
 import "./Collection/styles.css";
-import { Layout, Avatar, Icon } from "antd";
 import "antd/dist/antd.css";
 
 const rootElement = document.getElementById("root");
@@ -34,6 +33,7 @@ ReactDOM.render(
     <VerticalTimeline />
     <Team />
     <Verification />
+    {/* <Footer /> */}
   </React.StrictMode>,
   rootElement
 );

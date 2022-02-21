@@ -6,46 +6,47 @@ const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
     items: 4,
-    slidesToSlide: 4 // optional, default to 1.
+    slidesToSlide: 4, // optional, default to 1.
   },
   tablet: {
     breakpoint: { max: 1024, min: 768 },
     items: 3,
-    slidesToSlide: 3 // optional, default to 1.
+    slidesToSlide: 3, // optional, default to 1.
   },
   mobile: {
     breakpoint: { max: 767, min: 464 },
     items: 2,
-    slidesToSlide: 1 // optional, default to 1.
-  }
+    slidesToSlide: 1, // optional, default to 1.
+  },
 };
 const sliderImageUrl = [
-  //First image url
   {
-    url:
-      "https://bafybeihqy23votfihobdo2jaiw2rh2y6vl5iuyvepygvhr3w5d4gzgexbu.ipfs.dweb.link/222.png"
+    url: "https://bafybeihqy23votfihobdo2jaiw2rh2y6vl5iuyvepygvhr3w5d4gzgexbu.ipfs.dweb.link/2239.png",
   },
   {
-    url:
-      "https://bafybeihqy23votfihobdo2jaiw2rh2y6vl5iuyvepygvhr3w5d4gzgexbu.ipfs.dweb.link/253.png"
+    url: "https://bafybeihqy23votfihobdo2jaiw2rh2y6vl5iuyvepygvhr3w5d4gzgexbu.ipfs.dweb.link/2625.png",
   },
-  //Second image url
   {
-    url:
-      "https://bafybeihqy23votfihobdo2jaiw2rh2y6vl5iuyvepygvhr3w5d4gzgexbu.ipfs.dweb.link/25.png"
+    url: "https://bafybeihqy23votfihobdo2jaiw2rh2y6vl5iuyvepygvhr3w5d4gzgexbu.ipfs.dweb.link/3315.png",
   },
-  //Third image url
   {
-    url:
-      "https://bafybeihqy23votfihobdo2jaiw2rh2y6vl5iuyvepygvhr3w5d4gzgexbu.ipfs.dweb.link/76.png"
+    url: "https://bafybeihqy23votfihobdo2jaiw2rh2y6vl5iuyvepygvhr3w5d4gzgexbu.ipfs.dweb.link/3623.png",
+  },
+  {
+    url: "https://bafybeihqy23votfihobdo2jaiw2rh2y6vl5iuyvepygvhr3w5d4gzgexbu.ipfs.dweb.link/5937.png",
   },
 
-  //Fourth image url
+  {
+    url: "https://bafybeihqy23votfihobdo2jaiw2rh2y6vl5iuyvepygvhr3w5d4gzgexbu.ipfs.dweb.link/6579.png",
+  },
 
   {
-    url:
-      "https://bafybeihqy23votfihobdo2jaiw2rh2y6vl5iuyvepygvhr3w5d4gzgexbu.ipfs.dweb.link/300.png"
-  }
+    url: "https://bafybeihqy23votfihobdo2jaiw2rh2y6vl5iuyvepygvhr3w5d4gzgexbu.ipfs.dweb.link/8043.png",
+  },
+
+  {
+    url: "https://bafybeihqy23votfihobdo2jaiw2rh2y6vl5iuyvepygvhr3w5d4gzgexbu.ipfs.dweb.link/8442.png",
+  },
 ];
 const Slider = () => {
   return (
@@ -63,7 +64,7 @@ const Slider = () => {
         {sliderImageUrl.map((imageUrl, index) => {
           return (
             <div className="slider" key={index}>
-              <img src={imageUrl.url} alt="movie" />
+              <img src={imageUrl.url} alt="CarrotPerson" />
             </div>
           );
         })}

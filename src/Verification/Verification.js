@@ -6,7 +6,7 @@ export default function Verification() {
     <div>
       <div className="main-container">
         <div className="about-wrapper">
-          <div id="about" class="about-me">
+          <div id="about" className="about-me">
             <div className="greeting-wrapper">
               <h2>Verified Contract</h2>
               <p>

@@ -1,6 +1,23 @@
 :root {
+  --mainColor: #eaeaea;
+  --secondaryColor: #fff;
+
+  --borderColor: #c1c1c1;
+
   --mainText: black;
   --secondaryText: #3a3a3a;
+
+  --themeDotBorder: #24292e;
+
+  --previewBg: rgb(251, 249, 243, 0.8);
+  --previewShadow: #f0ead6;
+
+  --buttonColor: black;
+  --red: red;
+
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+  --timeline:#c1c1c1;
 }
 
 h1,
@@ -27,6 +44,23 @@ textarea {
   color: var(--secondaryText);
   font-family: "Roboto Mono", monospace;
 }
+
+
+
+.s1 {
+  background-color: var(--mainColor);
+  border-bottom: 1px solid var(--borderColor);
+  overflow: auto;
+}
+
+.s2 {
+  background-color: var(--secondaryColor);
+ 
+  border-bottom: 1px solid var(--borderColor);
+  overflow: auto;
+}
+
+
 
 .greeting-wrapper {
   display: grid;
@@ -80,6 +114,30 @@ td {
   width: 100%;
   transition: transform 0.1s;
 }
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 220px);
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  color: var(--mainText);
+}
+
+.copyright {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 20%);
+  gap: 0px;
+  justify-content: center;
+  text-align: center;
+  /* padding-bottom: 60px; */
+  color: var(--mainText);
+}
+
+
+
 
 @media screen and (max-width: 1100px) {
   .main-container {

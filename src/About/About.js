@@ -3,6 +3,9 @@ import "../index.css";
 
 export default function About() {
   return (
+    <div className="s2">
+
+  
     <div className="main-container">
       <div className="about-wrapper">
         <div id="about" className="about-me">
@@ -36,6 +39,7 @@ export default function About() {
           </p>
         </div>
       </div>
-    </div>
+      </div>
+      </div>
   );
 }

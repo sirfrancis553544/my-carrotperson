@@ -51,8 +51,10 @@ function Rarity() {
     []
   );
 
-  const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
-    useTable({ columns, data });
+  const { getTableBodyProps, headerGroups, rows, prepareRow } = useTable({
+    columns,
+    data,
+  });
 
   return (
     <>
