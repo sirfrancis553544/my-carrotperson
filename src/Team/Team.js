@@ -1,10 +1,11 @@
 import React from "react";
+import "../Navbar/data"
 import "../index.css";
 
 export default function Team() {
   return (
     <div>
-      <div className="main-container">
+      <div id="/team" className="main-container">
         <h2 className="team">Team</h2>
         <div className="about-wrapper">
           <div id="about" className="about-me">

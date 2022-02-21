@@ -18,7 +18,9 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
     <Navbar />
-    <h1>Collection</h1>
+    <div className="greeting-wrapper">
+        <h1>Collection</h1>
+    </div>
     <Slider />
     <About />
     <Rarity />

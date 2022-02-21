@@ -11,7 +11,6 @@ function Timeline() {
       <VerticalTimeline animate={false}>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        // date="5 AM"
         iconStyle={{ background: "#fff", color: "#f22f46" }}
         icon={<MdExtension />}
       >
@@ -39,7 +38,6 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        // date="6 AM"
         iconStyle={{ background: "#fff", color: "#f22f46" }}
         icon={<MdFavorite />}
       >
@@ -57,7 +55,6 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        // date="2008 - 2010"
         iconStyle={{ background: "#fff", color: "#f22f46" }}
         icon={<MdFavorite />}
       >
@@ -75,7 +72,6 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        // date="2006 - 2008"
         iconStyle={{ background: "#fff", color: "#f22f46" }}
         icon={<MdFavorite />}
       >
@@ -98,7 +94,6 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        // date="April 2013"
         iconStyle={{ background: "#fff", color: "#f22f46" }}
         icon={<MdFavorite />}
       >
@@ -114,7 +109,6 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        // date="November 2012"
         iconStyle={{ background: "#fff", color: "#f22f46" }}
         icon={<MdFavorite />}
       >
@@ -127,7 +121,6 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        // date="2002 - 2006"
         iconStyle={{ background: "#fff", color: "#f22f46" }}
         icon={<MdFavorite />}
       >
@@ -141,5 +134,4 @@ function Timeline() {
   );
 }
 
-// module.exports = Timeline;
 export default Timeline;

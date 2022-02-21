@@ -1,5 +1,3 @@
-import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 export const links = [
   {
     id: 1,
@@ -27,26 +25,3 @@ export const links = [
     text: "team"
   }
 ];
-
-// export const social = [
-//   {
-//     id: 1,
-//     url: "https://twitter.com/CarrotPersonYC",
-//     icon: <FaTwitter />
-//   },
-//   {
-//     id: 2,
-//     url: "https://www.facebook.com",
-//     icon: <FaFacebook />
-//   },
-//   {
-//     id: 3,
-//     url: "https://www.instagram.com",
-//     icon: <FaInstagram />
-//   },
-//   {
-//     id: 4,
-//     url: "https://www.youtube.com",
-//     icon: <FaYoutube />
-//   }
-// ];
