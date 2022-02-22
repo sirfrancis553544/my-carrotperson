@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
-import VisibilitySensor from 'react-visibility-sensor';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import classNames from "classnames";
+import VisibilitySensor from "react-visibility-sensor";
 
 class VerticalTimelineElement extends Component {
   constructor(props) {
@@ -35,10 +35,10 @@ class VerticalTimelineElement extends Component {
     return (
       <div
         id={id}
-        className={classNames(className, 'vertical-timeline-element', {
-          'vertical-timeline-element--left': position === 'left',
-          'vertical-timeline-element--right': position === 'right',
-          'vertical-timeline-element--no-children': children === '',
+        className={classNames(className, "vertical-timeline-element", {
+          "vertical-timeline-element--left": position === "left",
+          "vertical-timeline-element--right": position === "right",
+          "vertical-timeline-element--no-children": children === "",
         })}
         style={style}
       >
@@ -47,18 +47,18 @@ class VerticalTimelineElement extends Component {
           onChange={this.onVisibilitySensorChange}
         >
           <div>
-            <span 
+            <span
               style={iconStyle}
               onClick={iconOnClick}
               className={`vertical-timeline-element-icon ${
-                visible ? 'bounce-in' : 'is-hidden'
+                visible ? "bounce-in" : "is-hidden"
               }`}
             >
               {icon}
             </span>
             <div
               className={`vertical-timeline-element-content ${
-                visible ? 'bounce-in' : 'is-hidden'
+                visible ? "bounce-in" : "is-hidden"
               }`}
             >
               {children}
@@ -88,14 +88,14 @@ VerticalTimelineElement.propTypes = {
 };
 
 VerticalTimelineElement.defaultProps = {
-  id: '',
-  children: '',
-  className: '',
+  id: "",
+  children: "",
+  className: "",
   icon: null,
   iconStyle: null,
   style: null,
-  date: '',
-  position: '',
+  date: "",
+  position: "",
   iconOnClick: null,
   visibilitySensorProps: { partialVisibility: true, offset: { bottom: 80 } },
 };

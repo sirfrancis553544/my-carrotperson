@@ -57,7 +57,7 @@ function Rarity() {
   });
 
   return (
-    <>
+    <div className="s2">
       <div className="main-container">
         <h2 className="team">Rarity</h2>
         <p>
@@ -99,7 +99,7 @@ function Rarity() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

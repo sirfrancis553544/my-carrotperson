@@ -17,7 +17,7 @@
 
   --success-color: #2ecc71;
   --error-color: #e74c3c;
-  --timeline:#c1c1c1;
+  --timeline: #c1c1c1;
 }
 
 h1,
@@ -29,9 +29,8 @@ h6,
 strong {
   color: var(--mainText);
   font-family: "Russo One", sans-serif;
-  /* font-family: 'VT323', monospace; */
   font-weight: 500;
-  /* text-align: "center", */
+  text-align: "center";
 }
 th,
 td,
@@ -43,24 +42,56 @@ input,
 textarea {
   color: var(--secondaryText);
   font-family: "Roboto Mono", monospace;
+  font-size: 17px;
+}
+ul {
+  list-style: none;
 }
 
+h1 {
+  font-size: 70px;
+}
 
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  font-size: 17px;
+  /* color: #17a2b8; */
+}
 
 .s1 {
   background-color: var(--mainColor);
-  border-bottom: 1px solid var(--borderColor);
+  /* border-bottom: 0px solid var(--borderColor); */
   overflow: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .s2 {
   background-color: var(--secondaryColor);
- 
-  border-bottom: 1px solid var(--borderColor);
+  /* border-bottom: 0px solid var(--borderColor); */
   overflow: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
-
-
 
 .greeting-wrapper {
   display: grid;
@@ -76,10 +107,13 @@ textarea {
 .about-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   padding-top: 50px;
   gap: 30px;
   margin: 0 auto;
+}
+div.about-wrapper {
+  padding-top: 30px;
 }
 .thumbnail2 {
   width: 100%;
@@ -87,12 +121,16 @@ textarea {
 }
 
 .social-link {
-  padding-top: 150px;
+  padding-top: 90px;
   align-content: left;
   text-align: left;
 }
 
 .team {
+  text-align: center;
+  font-size: 3vmax;
+}
+.teamtitle {
   text-align: center;
 }
 
@@ -132,12 +170,31 @@ td {
   gap: 0px;
   justify-content: center;
   text-align: center;
+  opacity: 0.8;
   /* padding-bottom: 60px; */
-  color: var(--mainText);
+  /* color: var(--mainText); */
 }
 
+.partner img {
+  padding-bottom: 20px;
+  width: 170px;
+  /* height: 130px; */
+}
+.partner a {
+  display: inline-flex;
+  padding: 0 20px 40px 40px;
+}
 
-
+@media (max-width: 360px) {
+  .partner img {
+    padding-bottom: 20px;
+    width: auto;
+    height: 100px;
+  }
+  .partner a {
+    flex-direction: column;
+  }
+}
 
 @media screen and (max-width: 1100px) {
   .main-container {

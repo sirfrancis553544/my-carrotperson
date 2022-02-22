@@ -20,7 +20,7 @@ const Navbar = () => {
       <nav>
         <div className="nav-center">
           <div className="nav-header">
-            <h3 className="logo">CarrotPerson</h3>
+            <h3 className="logo">YettieClub</h3>
             <button
               className="nav-toggle"
               onClick={() => setShowLinks(!showLinks)}

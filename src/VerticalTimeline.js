@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { VerticalTimeline, VerticalTimelineElement } from "./Timeline";
-import "./Timeline/VerticalTimeline.css";
-import "./Timeline/VerticalTimelineElement.css";
+import { VerticalTimeline, VerticalTimelineElement } from "./Roadmap";
+import "./Roadmap/VerticalTimeline.css";
+import "./Roadmap/VerticalTimelineElement.css";
 
 import { MdFavorite, MdExtension } from "react-icons/md";
 
 function Timeline() {
   return (
-      <VerticalTimeline animate={false}>
+    <VerticalTimeline animate={false}>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         iconStyle={{ background: "#fff", color: "#f22f46" }}
@@ -124,11 +124,12 @@ function Timeline() {
         iconStyle={{ background: "#fff", color: "#f22f46" }}
         icon={<MdFavorite />}
       >
-        <h3 className="vertical-timeline-element-title">
-         
-        </h3>
+        <h3 className="vertical-timeline-element-title"></h3>
         <h4 className="vertical-timeline-element-subtitle"></h4>
-        <p>We are open to feedback and your creative ideas; you are welcome to share it on our discord. </p>
+        <p>
+          We are open to feedback and your creative ideas; you are welcome to
+          share it on our discord.{" "}
+        </p>
       </VerticalTimelineElement>
     </VerticalTimeline>
   );

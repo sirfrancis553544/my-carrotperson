@@ -2,14 +2,8 @@ import React from "react";
 import "../index.css";
 
 export default function Footer() {
-  var year = new Date();
-
-  document.getElementById(
-    "thisYear"
-  ).innerHTML = `<div> <strong>©</strong> ${year.getFullYear()} YettieClub</div>`;
-
   return (
-    <div className="main-container">
+    <div className="s1">
       <strong>
         <div className="footer">
           <div>
@@ -36,7 +30,10 @@ export default function Footer() {
         </div>
       </strong>
       <div className="copyright">
-        <p id="thisYear"></p>
+        <p>
+          {" "}
+          <strong>© {new Date().getFullYear()} YettieClub</strong>
+        </p>
       </div>
     </div>
   );
