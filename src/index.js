@@ -15,7 +15,6 @@ import Rarity from "./Rarity/Rarity";
 import VerticalTimeline from "./VerticalTimeline";
 import "./Collection/styles.css";
 import "./index.css";
-// import "antd/dist/antd.css";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
