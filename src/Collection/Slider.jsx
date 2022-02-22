@@ -19,6 +19,11 @@ const responsive = {
     items: 2,
     slidesToSlide: 1,
   },
+  mobile1: {
+    breakpoint: { max: 464, min: 260 },
+    items: 1,
+    slidesToSlide: 1,
+  },
 };
 const sliderImageUrl = [
   {

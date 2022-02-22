@@ -3,7 +3,7 @@ import "../index.css";
 
 export default function Partners() {
   return (
-    <div className="s1">
+    <div className="s1 partners" >
       <div id="contact" className="main-container">
         <h2>Featured On</h2>
         <div className="partner">

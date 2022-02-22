@@ -244,9 +244,12 @@ td {
     padding: 20px 0 20px;
   }
   .verify {
-    font-size: 12px;
+    font-size: 13px;
   }
   .social-link {
     padding-top: 50px;
+  }
+  .partners{
+    display: none;
   }
 }
