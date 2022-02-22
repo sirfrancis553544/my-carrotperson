@@ -10,7 +10,7 @@ export default function Partners() {
           <a
             href="http://NFTCalendar.io/event/carrotperson/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             <img
               src="https://nftcalendar.io/assets/logo/nftcalendar-logo.png"
@@ -20,7 +20,7 @@ export default function Partners() {
           <a
             href="https://notfin.com/carrotperson/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             <img
               src="https://notfin.com/logo/dark_green-notfin.png"
@@ -34,7 +34,7 @@ export default function Partners() {
           <a
             href="https://upcomingnft.net/event/carrotperson"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             <img
               src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/upcomingnft_logo.png"

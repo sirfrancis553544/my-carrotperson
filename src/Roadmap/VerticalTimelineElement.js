@@ -87,6 +87,7 @@ VerticalTimelineElement.propTypes = {
   visibilitySensorProps: PropTypes.shape({}),
 };
 
+   
 VerticalTimelineElement.defaultProps = {
   id: "",
   children: "",

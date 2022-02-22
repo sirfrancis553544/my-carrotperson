@@ -9,6 +9,7 @@ export default function ContainedButtons() {
         variant="contained"
         target="_blank"
         href="https://opensea.io/collection/carrotperson"
+        rel="noreferrer"
       >
         Buy on OpenSea
       </Button>

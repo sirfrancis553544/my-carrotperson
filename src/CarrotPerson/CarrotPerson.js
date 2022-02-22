@@ -4,7 +4,7 @@ import "./glitch.css";
 export default function CarrotPerson() {
   return (
     <div>
-      <div className="glitch-wrapper">
+      <div className="s2 glitch-wrapper">
         <div
           style={{ fontSize: "10vw" }}
           className="glitch"

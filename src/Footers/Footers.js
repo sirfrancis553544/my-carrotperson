@@ -7,23 +7,32 @@ export default function Footer() {
       <strong>
         <div className="footer">
           <div>
-            <a href="#about">About</a>
+            <a href="/">About</a>
           </div>
           <div>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://opensea.io/collection/carrotperson"
             >
               OpenSea
             </a>
           </div>
           <div>
-            <a target="_blank" href="https://discord.gg/grUEnM23">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://discord.gg/grUEnM23"
+            >
               Discord
             </a>
           </div>
           <div>
-            <a target="_blank" href="https://twitter.com/CarrotPersonYC">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/CarrotPersonYC"
+            >
               Twitter
             </a>
           </div>

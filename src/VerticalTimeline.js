@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { VerticalTimeline, VerticalTimelineElement } from "./Roadmap";
 import "./Roadmap/VerticalTimeline.css";
 import "./Roadmap/VerticalTimelineElement.css";
@@ -15,7 +14,6 @@ function Timeline() {
         icon={<MdExtension />}
       >
         <h3 className="vertical-timeline-element-title">Project Launch</h3>
-        <h4 className="vertical-timeline-element-subtitle"></h4>
         <p>
           <li>Create 8450 CarrotPerson</li>
           <li>Funding Website, Discord & Socials </li>
@@ -24,6 +22,7 @@ function Timeline() {
             Collaborated with{" "}
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://opensea.io/collection/carrotpersonspecial-kc"
             >
               Kanairo Collective
@@ -42,7 +41,6 @@ function Timeline() {
         icon={<MdFavorite />}
       >
         <h3 className="vertical-timeline-element-title">Phase 1</h3>
-        <h4 className="vertical-timeline-element-subtitle"></h4>
         <p>
           <li>Team is recruited for community building. </li>
           <li>Feedback is gathered, and strategy shaped by community. </li>
@@ -59,7 +57,6 @@ function Timeline() {
         icon={<MdFavorite />}
       >
         <h3 className="vertical-timeline-element-title">Phase 2</h3>
-        <h4 className="vertical-timeline-element-subtitle"></h4>
         <p>
           <li>
             Concentrating on promotion to grow online presence, project
@@ -76,7 +73,6 @@ function Timeline() {
         icon={<MdFavorite />}
       >
         <h3 className="vertical-timeline-element-title">Phase 3</h3>
-        <h4 className="vertical-timeline-element-subtitle"></h4>
         <p>
           {" "}
           <li>
@@ -98,7 +94,6 @@ function Timeline() {
         icon={<MdFavorite />}
       >
         <h3 className="vertical-timeline-element-title">Phase 4</h3>
-        <h4 className="vertical-timeline-element-subtitle"></h4>
         <p>
           <li>
             75% sold develops the CarrotPerson comic that tells the story of how
@@ -113,7 +108,6 @@ function Timeline() {
         icon={<MdFavorite />}
       >
         <h3 className="vertical-timeline-element-title">Phase 5</h3>
-        <h4 className="vertical-timeline-element-subtitle"></h4>
         <p>
           <li>100% sold CarrotPerson holders merch store will be launched. </li>
           <li>Comic NFT giveaway.</li>
@@ -124,9 +118,7 @@ function Timeline() {
         iconStyle={{ background: "#fff", color: "#f22f46" }}
         icon={<MdFavorite />}
       >
-        <h3 className="vertical-timeline-element-title"></h3>
-        <h4 className="vertical-timeline-element-subtitle"></h4>
-        <p>
+        <p className="roadmap">
           We are open to feedback and your creative ideas; you are welcome to
           share it on our discord.{" "}
         </p>

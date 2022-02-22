@@ -52,8 +52,9 @@
   box-sizing: border-box;
 }
 body {
-  background: var(--clr-grey-10);
+  /* background: var(--clr-grey-10);
   color: var(--clr-grey-1);
+  border-bottom: 1px solid #c1c1c1; */
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -131,15 +132,17 @@ p {
   Navbar
   ===============
   */
-nav {
+nav.nav-center{
   background: var(--clr-white);
   box-shadow: var(--light-shadow);
 }
+
 .nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  
 }
 .nav-toggle {
   font-size: 1.5rem;
@@ -148,6 +151,7 @@ nav {
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
+  
 }
 .nav-toggle:hover {
   color: var(--clr-primary-1);
@@ -173,6 +177,7 @@ nav {
   position: absolute;
   width: 100%;
   bottom: 0;
+  
 }
 .social-icons a {
   margin: 0 0.5rem;
@@ -188,8 +193,12 @@ nav {
   overflow: hidden;
   transition: var(--transition);
 }
+.logo{
+  padding-top: 10px;
+}
 .show-container {
   height: 10rem;
+  
 }
 @media screen and (min-width: 800px) {
   .nav-center {

@@ -10,11 +10,12 @@ import Verification from "./Verification/Verification";
 import Footer from "./Footers/Footers";
 import "./Navbar/navbar.css";
 import Rarity from "./Rarity/Rarity";
-import "./index.css";
+
 
 import VerticalTimeline from "./VerticalTimeline";
 import "./Collection/styles.css";
-import "antd/dist/antd.css";
+import "./index.css";
+// import "antd/dist/antd.css";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -24,7 +25,7 @@ ReactDOM.render(
     <Slider />
     <About />
     <Rarity />
-    <div className="greeting-wrapper">
+    <div className="s2 greeting-wrapper">
       <h1>Roadmap</h1>
       <VerticalTimeline />
     </div>
