@@ -119,9 +119,10 @@ li,
 div.about-wrapper {
   padding-top: 30px;
 }
-.thumbnail2 {
+.thumbnail2{
   width: 100%;
   transition: transform 0.1s;
+  border-radius: 15px;
 }
 
 .social-link {
@@ -154,10 +155,7 @@ td {
   padding: 10px;
 }
 
-.thumbnail2 {
-  width: 100%;
-  transition: transform 0.1s;
-}
+
 
 .footer {
   display: grid;

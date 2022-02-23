@@ -118,10 +118,10 @@ function Timeline() {
         iconStyle={{ background: "#fff", color: "#f22f46" }}
         icon={<MdFavorite />}
       >
-        <p className="roadmap">
-          We are open to feedback and your creative ideas; you are welcome to
-          share it on our discord.{" "}
-        </p>
+          <li>
+            We are open to feedback and your creative ideas; you are welcome to
+            share it on our discord.
+          </li>
       </VerticalTimelineElement>
     </VerticalTimeline>
   );

@@ -92,7 +92,7 @@ function Rarity() {
 
           <div id="about" className="about-me">
             <img
-              className="rarity"
+              className="thumbnail2 rarity"
               src="https://bafybeihqy23votfihobdo2jaiw2rh2y6vl5iuyvepygvhr3w5d4gzgexbu.ipfs.dweb.link/2974.png"
               alt="CarrotPerson#00,NFT,YettieClub"
             />

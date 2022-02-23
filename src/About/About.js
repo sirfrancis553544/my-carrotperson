@@ -7,7 +7,7 @@ export default function About() {
     <div className="s1 greeting-wrapper">
       <div className="main-container">
         <div className="about-wrapper">
-          <div id="about" className="about-me">
+          <div id="#about" className="about-me">
             {" "}
             <h2>About Carrot Person</h2>
             <img
