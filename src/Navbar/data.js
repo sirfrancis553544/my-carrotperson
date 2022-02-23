@@ -6,22 +6,22 @@ export const links = [
   },
   {
     id: 2,
-    url: "/about",
+    url: "/",
     text: "about us",
   },
   {
     id: 3,
-    url: "/rarity",
+    url: "/",
     text: "rarity",
   },
   {
     id: 4,
-    url: "/roadmap",
+    url: "/",
     text: "roadmap",
   },
   {
     id: 5,
-    url: "/team",
+    url: "/",
     text: "team",
   },
 ];
