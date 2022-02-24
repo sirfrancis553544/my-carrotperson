@@ -2,8 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import { FaBars } from "react-icons/fa";
 import { links } from "./data";
 
-
-
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
   const linksContainerRef = useRef(null);
@@ -36,7 +34,9 @@ const Navbar = () => {
                 const { id, url, text } = link;
                 return (
                   <li key={id}>
-                    <a href={url}>{text}</a>
+                    <a target="_blank" rel="noreferrer" href={url}>
+                      {text}
+                    </a>
                   </li>
                 );
               })}

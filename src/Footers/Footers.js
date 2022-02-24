@@ -7,9 +7,6 @@ export default function Footer() {
       <strong>
         <div className="footer">
           <div>
-            <a href="/">About</a>
-          </div>
-          <div>
             <a
               target="_blank"
               rel="noreferrer"

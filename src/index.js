@@ -19,12 +19,10 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
     <Navbar />
-
     <CarrotPerson />
     <Slider />
     <About />
     <Rarity />
-
     <div className="s2 greeting-wrapper">
       <h1>Roadmap</h1>
       <VerticalTimeline />

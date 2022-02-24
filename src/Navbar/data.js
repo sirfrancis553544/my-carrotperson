@@ -1,27 +1,17 @@
 export const links = [
   {
     id: 1,
-    url: "/",
-    text: "minting",
+    url: "https://opensea.io/collection/carrotperson",
+    text: "OpenSea",
   },
   {
     id: 2,
-    url: "/",
-    text: "about us",
+    url: "https://twitter.com/CarrotPersonYC",
+    text: "Twitter",
   },
   {
     id: 3,
-    url: "/",
-    text: "rarity",
-  },
-  {
-    id: 4,
-    url: "/",
-    text: "roadmap",
-  },
-  {
-    id: 5,
-    url: "/",
-    text: "team",
+    url: "https://discord.gg/8wAZBFdN",
+    text: "Discord",
   },
 ];
