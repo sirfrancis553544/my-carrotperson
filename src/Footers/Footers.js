@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <a
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               href="https://opensea.io/collection/carrotperson"
             >
               OpenSea
@@ -18,7 +18,7 @@ export default function Footer() {
           <div>
             <a
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               href="https://discord.gg/grUEnM23"
             >
               Discord
@@ -27,7 +27,7 @@ export default function Footer() {
           <div>
             <a
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               href="https://twitter.com/CarrotPersonYC"
             >
               Twitter

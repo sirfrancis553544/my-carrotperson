@@ -12,7 +12,7 @@ export default function Verification() {
                 <p>
                   <a className="verify"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     href="https://polygonscan.com/token/0x3b9ca0f67260adadc4e0d4650c52fe4630b11a7a"
                   >
                     0x3b9ca0f67260adadc4e0d4650c52fe4630b11a7a

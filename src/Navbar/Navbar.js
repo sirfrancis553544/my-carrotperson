@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FaBars } from "react-icons/fa";
 import { links } from "./data";
+import ContainedButtons from "./Mint";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -21,6 +22,7 @@ const Navbar = () => {
         <div className="nav-center">
           <div className="nav-header">
             <h3 className="logo">YettieClub</h3>
+            <h3> <ContainedButtons /></h3>
             <button
               className="nav-toggle"
               onClick={() => setShowLinks(!showLinks)}
@@ -34,7 +36,7 @@ const Navbar = () => {
                 const { id, url, text } = link;
                 return (
                   <li key={id}>
-                    <a target="_blank" rel="noreferrer" href={url}>
+                    <a target="_blank" rel="noopener noreferrer" href={url}>
                       {text}
                     </a>
                   </li>

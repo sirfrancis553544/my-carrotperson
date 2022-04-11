@@ -22,7 +22,7 @@ function Timeline() {
             Collaborated with{" "}
             <a
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               href="https://opensea.io/collection/carrotpersonspecial-kc"
             >
               Kanairo Collective
