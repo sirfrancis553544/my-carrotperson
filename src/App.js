@@ -5,7 +5,7 @@ import Navbar from "./Navbar/Navbar";
 import Slider from "./Collection/Slider";
 import About from "./About/About";
 import Rarity from "./Rarity/Rarity";
-import VerticalTimeline from "./Roadmap/VerticalTimeline";
+import VerticalTimeline from "./VerticalTimeline";
 import Partners from "./Partners/Partners";
 import Team from "./Team/Team";
 import Verification from "./Verification/Verification";
