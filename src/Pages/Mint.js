@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { connect } from "../redux/blockchain/blockchainActions";
 import { fetchData } from "../redux/data/dataActions";
@@ -223,21 +223,24 @@ function Mint() {
                 fontSize: 40,
                 fontWeight: "bold",
                 color: "var(--accent-text)",
-              
               }}
             >
               free mint <br /> {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
             <s.TextDescription
-              // style={{
-              //   textAlign: "center",
-              //   color: "var(--primary-text)",
-              // }}
+            // style={{
+            //   textAlign: "center",
+            //   color: "var(--primary-text)",
+            // }}
             >
-              <StyledLink style={{
-                textAlign: "center",
-                color: "var(--primary)",
-              }} target={"_blank"} href={CONFIG.SCAN_LINK}>
+              <StyledLink
+                style={{
+                  textAlign: "center",
+                  color: "var(--primary)",
+                }}
+                target={"_blank"}
+                href={CONFIG.SCAN_LINK}
+              >
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
             </s.TextDescription>
