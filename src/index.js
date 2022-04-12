@@ -5,7 +5,7 @@ import "./Collection/styles.css";
 import "./index.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Mint from "./Mint";
+import Mint from "./Pages/Mint";
 import App from "./App";
 
 import store from "./redux/store";
