@@ -1,42 +1,46 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Slider from "./Collection/Slider";
-import Navbar from "./Navbar/Navbar";
-import CarrotPerson from "./CarrotPerson/CarrotPerson";
-import About from "./About/About";
-import Partners from "./Partners/Partners";
-import Team from "./Team/Team";
-import Verification from "./Verification/Verification";
-import Footer from "./Footers/Footers";
 import "./Navbar/navbar.css";
-import Rarity from "./Rarity/Rarity";
-
-import VerticalTimeline from "./VerticalTimeline";
 import "./Collection/styles.css";
 import "./index.css";
 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Mint from "./Mint";
+import App from "./App";
 
-
+import store from "./redux/store";
+import { Provider } from "react-redux";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
-
-    <CarrotPerson />
-    <Slider />
-
-    <About />
-
-    <Rarity />
-    <div className="s2 greeting-wrapper">
-      <h1>Roadmap</h1>
-      <VerticalTimeline />
-    </div>
-    <Partners />
-    <Team />
-    <Verification />
-    <Footer />
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="Mint" element={<Mint />} />
+          <Route
+            path="*"
+            element={
+              <index style={{ padding: "1rem" }}>
+                <p
+                  style={{
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                    marginTop: "5%",
+                    width: "30em",
+                    padding: 100,
+                    borderRadius: 24,
+                  }}
+                >
+                  404 | Page could not be found!
+                </p>
+              </index>
+            }
+          />
+        </Routes>
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>,
   rootElement
 );

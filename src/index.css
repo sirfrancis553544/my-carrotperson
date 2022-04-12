@@ -18,6 +18,13 @@
   --success-color: #2ecc71;
   --error-color: #e74c3c;
   --timeline: #c1c1c1;
+/* minting css */
+  --primary: #ffd04d;
+  --background: #1f1579;
+  --primary-text: #1a1a1a;
+  --secondary: #f8f8f8;
+  /* --secondary-text: #424242; */
+  --accent-text: #ffffff;
 }
 
 h1,

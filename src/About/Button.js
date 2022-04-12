@@ -11,7 +11,7 @@ export default function ContainedButtons() {
         href="https://opensea.io/collection/carrotperson"
         rel="noreferrer"
       >
-        Buy on OpenSea
+      OpenSea
       </Button>
     </Stack>
   );

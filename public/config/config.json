@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x3B9cA0f67260adAdC4E0D4650C52fE4630B11a7A",
+  "SCAN_LINK": "https://polygonscan.com/token/0x3b9ca0f67260adadc4e0d4650c52fe4630b11a7a",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "CarrotPerson",
+  "SYMBOL": "CTP",
+  "MAX_SUPPLY": 8450,
+  "WEI_COST": 0,
+  "DISPLAY_COST": 0.00,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/carrotperson",
+  "SHOW_BACKGROUND": true
+}
