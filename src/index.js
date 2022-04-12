@@ -18,7 +18,7 @@ ReactDOM.render(
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<App />} />
-          <Route path="Mint" element={<Mint />} />
+          <Route path="/Mint" element={<Mint />} />
           <Route
             path="*"
             element={
