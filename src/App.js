@@ -1,6 +1,6 @@
 import React from "react";
 import CarrotPerson from "./CarrotPerson/CarrotPerson";
-import "./Collection/styles.css";
+
 import Navbar from "./Navbar/Navbar";
 import Slider from "./Collection/Slider";
 import About from "./About/About";
@@ -11,6 +11,8 @@ import Team from "./Team/Team";
 import Verification from "./Verification/Verification";
 import Footer from "./Footers/Footers";
 
+import "./Collection/styles.css";
+import "./index.css";
 export default function App() {
   return (
     <>
@@ -20,7 +22,7 @@ export default function App() {
       <About />
       <Rarity />
       <div className="s2 greeting-wrapper">
-        <h1>Roadmap</h1>
+        <h2>Roadmap</h2>
         <VerticalTimeline />
       </div>
       <Partners />
