@@ -8,7 +8,7 @@ export default function ContainedButtons() {
     <Stack direction="row" spacing={2}>
       <Button variant="contained">
         <Link
-          to="/Mint"
+          to="/mint"
           style={{ textAlign: "center", fontWeight: "bold", color: "white" }}
         >
           Free Mint
