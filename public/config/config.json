@@ -3,7 +3,7 @@
   "SCAN_LINK": "https://polygonscan.com/token/0x3b9ca0f67260adadc4e0d4650c52fe4630b11a7a",
   "NETWORK": {
     "NAME": "Polygon",
-    "SYMBOL": "Matic",
+    "SYMBOL": "MATIC",
     "ID": 137
   },
   "NFT_NAME": "CarrotPerson",
@@ -11,7 +11,7 @@
   "MAX_SUPPLY": 8450,
   "WEI_COST": 0,
   "DISPLAY_COST": 0.00,
-  "GAS_LIMIT": 285000,
+  "GAS_LIMIT": 4949390,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/carrotperson",
   "SHOW_BACKGROUND": true
